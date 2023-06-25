@@ -11,18 +11,15 @@ import twitter from "../Images/twitter.svg";
 const Footer = () => {
   return (
     <footer className=" text-dark pt-5">
-      <Container>
-        <a href="https://forms.gle/4ujuyKBGxEydPwKh6" target="_blank">
-          {" "}
-          <img src={logo} className="groupimg2 mb-3" />
-        </a>
+      <Container> 
+          <img src={logo} className="groupimg2 mb-3" /> 
         <Row>
           <Nav className="footAdjust">
             <Nav.Link href="#Home">Home</Nav.Link>
             <Nav.Link href="#AboutUs">About Us</Nav.Link>
             <Nav.Link href="#Universe">Universe</Nav.Link>
             <Nav.Link href="#Marketing">Marketing</Nav.Link>
-            <Nav.Link href="https://master--baitwhitelist.netlify.app/">WhiteList</Nav.Link>
+            <Nav.Link href="https://master--baitwhitelist.netlify.app/">Airdrop</Nav.Link>
             <Nav.Link href="#Roadmap">Roadmap</Nav.Link> 
           </Nav>
         </Row>
